@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("sample.jpg");
+    background-color: lightgray;
+    -webkit-background-size:cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.loginpage
+{
+    width: 360px;
+    padding : 10% 0 0;
+    margin:auto;
+}
+.form {
+    position: relative;
+    max-width: 360px;
+    margin: 0 auto 200px;
+    padding: 40px;
+    text-align: center;
+    background-color:beige;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+    .form input {
+        font-family: "Roboto",sans-serif;
+        font-display: auto;
+        padding: 15px;
+        width: 100%;
+        margin: 0 0 15px;
+        box-sizing: border-box;
+        font-size: 14px;
+        border:0;
+        outline:0;
+    }
+    .form button {
+        font-family: inherit;
+        text-transform: capitalize;
+        background-color: brown;
+        color: white;
+        width: 100%;
+        padding: 15px;
+        font-size: inherit;
+        font-weight: 500;
+        outline: 0;
+        border: 0;
+        cursor: pointer;
+        -webkit-transition: all 0.3 ease;
+        transition: all 0.3 ease;
+    }
+    .form button:hover, .form button:active, .form button:focus 
+    {
+            background-color:crimson;
+     }
+    .form .message {
+        margin: 15px 0 0;
+        color: #b3b3b3;
+        font-size: 12px;
+    }
+
+        .form .message a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+    .container .info span .fa {
+        color: #EF3B3A;
+    }
